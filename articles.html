@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Samar Karam</title>
+  </head>
+  <body>
+    <!-- site header -->
+    <header class="header">
+      <!-- media logo -->
+      <div class="header__wrapper container">
+        <a class="header__logo" href="./index.html">
+          <img
+            class="header__img"
+            src="./images/logo.svg"
+            alt="site logo"
+            width="300"
+            height="90"
+          />
+        </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list" role="list">
+            <li class="nav__item">
+              <a class="nav__link " href="./index.html">home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./cultural_hub.html">cultural hub</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">
+                <img
+                  class="nav__img"
+                  src="./images/logo.svg"
+                  alt="site logo"
+                  width="300"
+                  height="90"
+                />
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link active" href="./resources.html">resources</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./contact.html">contact me</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__toggler">
+          <i class="header__icon bx bx-menu-alt-right"></i>
+        </button>
+        <ul class="nav__list-mob" role="list">
+          <li class="nav__item-mob">
+            <a class="nav__link-mob" href="./index.html">home</a>
+          </li>
+          <li class="nav__item-mob">
+            <a class="nav__link-mob" href="./cultural_hub.html">cultural hub</a>
+          </li>
+          <li class="nav__item-mob">
+            <a class="nav__link-mob active" href="./resources.html">resources</a>
+          </li>
+          <li class="nav__item-mob">
+            <a class="nav__link-mob" href="./contact.html">contact me</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- site main -->
+    <main class="main">
+      <!-- tab -->
+      <section class="tab container">
+        <div class="tab-container">
+          <a class="tab__link tab-link" href="./resources.html">Featured</a>
+          <a class="tab__link tab-link" href="./books.html">books</a>
+          <a class="tab__link tab-link" href="./videos.html">videos</a>
+          <a class="tab__link tab-link active" href="./articles.html">articles</a>
+        </div>
+      </section>
+      <!-- recommanded books -->
+      <section class="books">
+        <div class="books__container container">
+          <h2 class="books__title site-title">Articles By Samar Karam:</h2>
+          <!-- books box -->
+
+          <div class="books__box book-box">
+            <div class="book-box__left">
+              <!-- src="./images/books/AWomanIsNoMan.jpg" -->
+              <img
+                class="book-box__image"
+                src="./images/articles/create-your-own-santuary.svg"
+                alt="book image"
+                width="300"
+                height="400"
+              />
+            </div>
+            <div class="book-box__right">
+              <!-- <span class="book-box__sub">Featured Book of the week</span> -->
+              <h4 class="book-box__name">
+                Creating Your Sanctuary
+              </h4>
+              <p>October 12, 2023</p>
+              <p class="book-box__text">
+                Individuals living and working in a country different from their own, with high rotation often face various challenges and changes in their new environment. Creating a sense of familiarity and comfort is important to adapt as moving to a new country can be overwhelming, both culturally and socially. By creating a sense of familiarity, expats can facilitate their adaptation process, feel more at ease, and adjust more quickly to their new surroundings.
+              </p>
+              <a
+                class="book__box-link"
+                href="creating-your-sanctuary.html"
+                >Read More
+                <i class="book-box__icon bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="books__box book-box">
+            <div class="book-box__left">
+              <!-- src="./images/books/AWomanIsNoMan.jpg" -->
+              <img
+                class="book-box__image"
+                src="./images/articles/from-pride-to-resentment.svg"
+                alt="book image"
+                width="300"
+                height="400"
+              />
+            </div>
+            <div class="book-box__right">
+              <!-- <span class="book-box__sub">Featured Book of the week</span> -->
+              <h4 class="book-box__name">
+                From Resentment To Pride
+              </h4>
+              <p>October 2, 2023</p>
+              <p class="book-box__text">
+                As a third culture kid, Lena grew up in so many places, she has experienced a tumultuous journey when it comes to reconciling with her Asian cultural origin and her upbringing in 9 different places. There was a time when she grappled with feelings of resentment and embarrassment toward her heritage, but through self-reflection, she discovered that it was merely a phase of growth. It is not uncommon for third-culture kids like her to struggle with finding their place in the complex web of cultural identities. While she was fortunate enough to have been exposed to both her Asian heritage and other cultures, she found herself longing to fit in with her American peers. This desire to assimilate led to moments of embarrassment and sometimes even a sense of shame towards her Asian background.
+              </p>
+              <a
+                class="book__box-link"
+                href="from-resentment-to-pride.html"
+                >Read More
+                <i class="book-box__icon bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="books__box book-box">
+            <div class="book-box__left">
+              <!-- src="./images/books/AWomanIsNoMan.jpg" -->
+              <img
+                class="book-box__image"
+                src="./images/articles/halloween.svg"
+                alt="book image"
+                width="300"
+                height="400"
+              />
+            </div>
+            <div class="book-box__right">
+              <!-- <span class="book-box__sub">Featured Book of the week</span> -->
+              <h4 class="book-box__name">
+                Unique Tolerance: Halloween in Arab Countries
+              </h4>
+              <p>October 30, 2023</p>
+              <p class="book-box__text">
+                Each culture has its own traditions and celebrations that represent its beliefs, values, and religious practices. Halloween, stemming from Celtic traditions, is a widely popular event celebrated across the globe. While it may seem taboo in Arab religious culture, the diverse and culturally rich Arab countries have embraced Halloween, highlighting their increasing tolerance and openness to different cultural practices.
+              </p>
+              <a
+                class="book__box-link"
+                href="halloween-in-arab-countries.html"
+                >Read More
+                <i class="book-box__icon bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>     
+          
+          <div class="books__box book-box">
+            <div class="book-box__left">
+              <!-- src="./images/books/AWomanIsNoMan.jpg" -->
+              <img
+                class="book-box__image"
+                src="./images/articles/i-never-told-you.svg"
+                alt="book image"
+                width="300"
+                height="400"
+              />
+            </div>
+            <div class="book-box__right">
+              <!-- <span class="book-box__sub">Featured Book of the week</span> -->
+              <h4 class="book-box__name">
+                Everything I Never Told You
+              </h4>
+              <p>November 27, 2023</p>
+              <p class="book-box__text">
+                In the novel "Everything I Never Told You" by Celeste Ng, the Chinese American family faces numerous struggles that stem from their complex identity and the pressures they face in American society during the 1970s. The narrative sheds light on themes such as racism, cultural assimilation, gender roles, and the burden of expectations. One of the primary struggles of the Chinese-American family in the novel revolves around racism and cultural discrimination. The characters face constant prejudice and scrutiny due to their ethnic background. This discrimination is evident in the experience of Marilyn Lee, the mother of the family, who faces discrimination while pursuing her dream of becoming a doctor. She is often undermined and overlooked by her white classmates and professors, leading to feelings of isolation and self-doubt.
+              </p>
+              <a
+                class="book__box-link"
+                href="everything-i-never-told-you.html"
+                >Read More
+                <i class="book-box__icon bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>  
+          
+          <div class="books__box book-box">
+            <div class="book-box__left">
+              <!-- src="./images/books/AWomanIsNoMan.jpg" -->
+              <img
+                class="book-box__image"
+                src="./images/articles/phobia-of-dogs.svg"
+                alt="book image"
+                width="300"
+                height="400"
+              />
+            </div>
+            <div class="book-box__right">
+              <!-- <span class="book-box__sub">Featured Book of the week</span> -->
+              <h4 class="book-box__name">
+                Unveiling The Phobia of Dogs Among Indians in the UAE
+              </h4>
+              <p>September 11, 2023</p>
+              <p class="book-box__text">
+                Fear of dogs is a widespread phobia globally. Despite being seen as loyal companions, many Indians in the UAE exhibit fear and anxiety around dogs. New expatriates should be aware of this and accommodate their Indian colleagues' or friends' fears by keeping their furry four-legged friends away from them, for the following reaso…
+              </p>
+              <a
+                class="book__box-link"
+                href="phobia-of-dogs.html"
+                >Read More
+                <i class="book-box__icon bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>  
+
+        </div>
+      </section>
+    </main>
+    <!-- site footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <ul class="footer__list" role="list">
+          <li class="footer__item">
+            <a class="footer__link" href="./index.html">home</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="./cultural_hub.html">cultural hub</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link active" href="./resources.html">resources</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="./contact.html">contact me</a>
+          </li>
+        </ul>
+        <ul class="footer__social social" role="list">
+          <li class="social__item">
+            <a class="social__link" href="https://www.instagram.com/samar_crossculture_consultant/" target="_blank">
+              <i class="social__img bx bxl-instagram-alt"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="https://www.facebook.com/profile.php?id=61550811335932&mibextid=zLoPMf" target="_blank">
+              <i class="social__img bx bxl-facebook"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="https://www.linkedin.com/in/samarsamykaram" target="_blank">
+              <i class="social__img bx bxl-linkedin-square"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="https://x.com/culturecords148" target="_blank">
+              <i class="social__img bx bxl-twitter"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="https://www.tiktok.com/@samarkaram411?_t=8hbMhGImLYH&_r=1" target="_blank">
+              <i class="social__img bx bxl-tiktok"></i>
+            </a>
+          </li>
+        </ul>
+        <span class="footer_copy">Copyright © 2023 Samar Karam</span>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
